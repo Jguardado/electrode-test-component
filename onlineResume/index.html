@@ -1,7 +1,7 @@
 <!doctype html>
   <head>
     <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Some Page Title</title>
       <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
       <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
@@ -9,11 +9,10 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 
-      <script src="js/vendor/modernizr.min.js"></script>
-      <script src="js/vendor/respond.min.js"></script>
-
+      <script src="js/vendor/modernizr.js"></script>
+      <script src="js/vendor/respond.js"></script>
       <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
-      <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+      <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
       <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/vendor\/1.7.2.jquery.min.js"><\/script>')</script>
       <script src="lightbox/js/lightbox.js"></script>
       <script src="js/vendor/prefixfree.min.js"></script>
@@ -57,6 +56,8 @@
         </ul>
       </nav>
     </header>
+
+
     <section class="container">
       <h2 class="hidden">Projects</h2>
       <article id="slider_content1">
@@ -80,30 +81,35 @@
         <img src="img/prsnl.png" alt="some alt text">
       </div>
     </section>
+
+
     <section id="spacer">
       <h2 class="hidden">Spacer</h2>
-      <p>Not sure what this does yet... fill in later</p>
+      <p>Welcome to my online resume</p>
       <div class="search">
         <form action="#">
-          <input type="text" name="sitesearch" value="What can I help you find?">
+          <input type="text" name="sitesearch" placeholder="What can I help you find?">
           <input type="submit" name="start_search" class="button" value="Search">
         </form>
       </div>
     </section>
-    <section id='boxcontent'>
-      <h2 class='hidden'>Possibly Resume</h2>
-      <article>
-        <img src='img/github.png' alt='oops no pic'>
+    <section id="boxcontent">
+      <h2 class="hidden">Possibly Resume</h2>
+      <article class="left">
+        <img src="img/github.png" alt="oops no pic" />
         <h3>GitHub</h3>
         <p>Take a look at what I'm currently working on. Maybe even submit a pull request.</P>
       </article>
-      <article>
-        <img src='img/medium.png' alt='oops no pic'>
+      <article class="right">
+        <img src="img/medium.png" alt="oops no pic">
         <h3>My Blog</h3>
         <p>See what I've been focusing on</p>
       </article>
+      <br class="clear" />
     </section>
-    <section class='four_columns'>
+
+
+    <section class="four_columns">
       <h2>Projects2</h2>
       <article class="img-item">
         <h3 class="hidden">ComponentBase</h3>
@@ -152,6 +158,8 @@
       </article>
       <br class="clear"/>
     </section>
+
+
     <section id='text_columns'>
       <h2 class='hidden'>Personal Summary</h2>
       <article class='column1'>
@@ -172,8 +180,11 @@
         </article>
       </section>
     </section>
+
+
     <footer>
       <h2 class='hidden'>The Boot</h2>
+
       <section id='copyright'>
         <div class'wrapper'>
           something something
@@ -183,6 +194,7 @@
           &copy; Copyright 2016 by Juan Guardado. All Rights Reserved
         </div>
       </section>
+
       <section class='wrapper'>
         <h3 class='hidden'>Footer Content</h3>
         <article class='column'>
@@ -202,6 +214,9 @@
           </ul>
         </article>
       </section>
+
     </footer>
+
+
   </body>
 </html>

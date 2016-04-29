@@ -59,8 +59,43 @@ figcaption strong {
   display: block;
 }
 
+hr {
+  background-color: #D6D0C1;
+  border:0;
+  height:1px;
+  margin:20px 0;
+}
+
+
+/*Buttons*/
+
+.button {
+  padding:7px 14px;
+  border: 1px solid #c3532e;
+  background-image: linear-gradient(bottom, #E56038 0%, #ff8c66 100%);
+  background-image: linear-gradient(to bottom, #ff8c66 0%, #E56038 100%);
+  background-color: #eb653c;
+  color: #EBE8DE;
+  text-shadow: 1px 1px 0px #ff8155;
+  text-decoration:none;
+  border-radius:5px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background:none #EBE8DE;
+  border-color: #EBE8DE;
+  text-shadow:none;
+  color: #4A463B;
+}
+
+
 
 /* SECTIONAL*/
+
+
+/*Header*/
+
 
 header {
   position: relative;
@@ -84,6 +119,11 @@ header p {
 }
 
 /*Nav Bar*/
+nav {
+  position:absolute;
+  right:0;
+  bottom:0;
+}
 
 nav ul {
   list-style: none;
@@ -178,6 +218,7 @@ nav ul li a:hover {
 /*Box Content*/
 
 #boxcontent {
+  background: #FFFFFF;
   width: auto;
   max-width: 900px;
   margin: 0 auto;
@@ -188,6 +229,21 @@ nav ul li a:hover {
   float: left;
   width: 250px;
   margin-right: 45px;
+  font-size: 14px;
+}
+
+/*this needs to worked on to fix spacing between both items*/
+#boxcontent article .left {
+  float: left;
+  width: 250px;
+  margin-right: 45px;
+  font-size: 14px;
+}
+
+#boxcontent article .right {
+  float: left;
+  width: 250px;
+  margin-right: : 45px;
   font-size: 14px;
 }
 
@@ -242,7 +298,6 @@ nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 113px;
-  background: #000 url(img/zoom.png) center center no-repeat;
   z-index: 99;
   opacity: 0;
   transition: opacity .5s ease;

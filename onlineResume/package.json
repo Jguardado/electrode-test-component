@@ -3,7 +3,8 @@
   "description": "Portfolio",
   "main": "index.html",
   "scripts": {
-    "start": "server.js"
+    "start": "node server.js",
+    "local": "nodemon server.js"
   },
   "version": "0.0.1",
   "author": "Juan Guardado",

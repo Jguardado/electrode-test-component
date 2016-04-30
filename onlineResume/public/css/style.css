@@ -53,7 +53,7 @@ figcaption {
 }
 
 figcaption strong {
-  border-bottom: 1px solid #D6D0C1;
+  border-bottom: 1px solid #89AC10;
   padding-bottom: 10px;
   margin: 10px 0;
   display: block;
@@ -337,8 +337,8 @@ nav ul li a:hover {
 }
 
 #four_columns h2, #text_columns h3 {
-  font-size: 20px;
-  border-bottom: 1px solid #666666;
+  font-size: 25px;
+  border-bottom: 1px solid #89AC10;
   padding: 20px 0;
   margin-bottom: 20px;
 }
@@ -372,7 +372,14 @@ nav ul li a:hover {
 
 /*Text Column*/
 
-#text_columns article.column1, #text_columns .column2 {
+#text_columns article.column1 {
+  margin: 70px 0;
+  font-size: 20px;
+  float: left;
+  width: 450px:
+  }
+
+#text_columns .column2 {
   margin: 70px 0;
   font-size: 14px;
   float: left;

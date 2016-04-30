@@ -162,7 +162,6 @@ nav ul li a:hover {
 
  /*Slider Section*/
 .slidesjs-container {
-  border-top: 1px #d6d0c1 solid;
 }
 
 #slides {
@@ -243,7 +242,7 @@ nav ul li a:hover {
 
 #spacerTop {
   width: auto;
-  height: 45px;
+  height: 35px;
   background-color: #666666;
   position: relative;
   font-family: 'Didact Gothic', sans-serif;

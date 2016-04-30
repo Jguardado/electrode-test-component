@@ -242,13 +242,33 @@ nav ul li a:hover {
 
 #spacerTop {
   width: auto;
-  height: 35px;
-  background-color: #666666;
+  height: 500px;
+  background-color: #E9F3D9;
   position: relative;
   font-family: 'Didact Gothic', sans-serif;
   color: #fff;
   font-size: 18px;
+  margin: auto;
 }
+
+#spacerTop h1 {
+  font-family: 'Baumans', cursive;
+  color: #000;
+  position: absolute;
+  font-size: 30px;
+  margin-left: 45%;
+  margin-right: 35px;
+  margin-top: 12%;
+}
+
+#spacerTop img {
+  position: absolute;
+  border-radius: 150px 20px 150px 20px;
+  margin-left: 17%;
+  margin-top: 12%;
+
+}
+
 
 /*Box Content*/
 

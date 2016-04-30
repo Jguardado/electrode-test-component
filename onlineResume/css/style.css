@@ -71,10 +71,10 @@ hr {
 
 .button {
   padding:7px 14px;
-  border: 1px solid #c3532e;
+  border: 1px solid #2E8304;
   background-image: linear-gradient(bottom, #E56038 0%, #ff8c66 100%);
   background-image: linear-gradient(to bottom, #ff8c66 0%, #E56038 100%);
-  background-color: #eb653c;
+  background-color: #2E8304;
   color: #EBE8DE;
   text-shadow: 1px 1px 0px #ff8155;
   text-decoration:none;
@@ -289,8 +289,15 @@ nav ul li a:hover {
   margin-left: 75px;
 }
 
+#boxcontent article h3:hover {
+  opacity: 0;
+  transition: opacity 0.9s ease 0.1s;
+
+}
+
 #boxcontent article img {
   float: left;
+  margin-right: 10px;
 }
 
 #boxcontent article p {

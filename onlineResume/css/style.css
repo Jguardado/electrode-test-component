@@ -146,6 +146,17 @@ nav ul li a:hover {
 }
 
  /*Slider Section*/
+.slidesjs-container {
+  border-top: 1px #d6d0c1 solid;
+}
+
+#slides {
+  display: none
+}
+
+.slidesjs-pagination .active {
+  color:red;
+}
 
 #slider_content1, #slider_content2, #slider_content3 {
   line-height: 25px;
@@ -297,7 +308,7 @@ nav ul li a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  height: 113px;
+  height: 100%;
   background: #000 url("http://www.lingulo.com/tutorial-content/html5/css/img/zoom.png") center center no-repeat;
   z-index: 99;
   opacity: 0;

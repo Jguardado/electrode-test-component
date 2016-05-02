@@ -115,7 +115,7 @@ hr {
 
 header {
   position: absolute;
-  width: auto;
+  width: 100%;
   max-width: 900px;
   margin-left: 45px;
 }
@@ -277,9 +277,12 @@ nav ul li a:hover {
 
 #slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p  .responsive_button {
   display:none;
-  color:#000;
+  color:#A1C22D;
 }
 
+#slider_content1 p .responsive_button:hover, #slider_content2 p .responsive_button:hover, #slider_content3 p  .responsive_button:hover {
+  color:#666666;
+}
 /*Spacer Section*/
 
 #spacer {
@@ -323,7 +326,7 @@ nav ul li a:hover {
   position: absolute;
   display: inline-block;
   margin-left: 15%;
-  margin-top: 10%;
+  margin-top: 13%;
 
 }
 

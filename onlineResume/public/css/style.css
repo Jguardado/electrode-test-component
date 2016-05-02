@@ -132,7 +132,7 @@ header p {
   position: relative;
   font-family: 'Didact Gothic', sans-serif;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #666666;
   margin-left: 132px;
 }
 
@@ -336,12 +336,12 @@ nav ul li a:hover {
   color: #000;
   font-size: 30px;
   max-width: 540px;
-
 }
 
 #spacerTop img {
   border-radius: 200px 40px 40px 200px;
   display: inline-block;
+  box-shadow: -10px 0px 10px 1px #666666;
 }
 
 

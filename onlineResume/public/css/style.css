@@ -111,6 +111,11 @@ hr {
   height: 100%;
 }
 
+.text {
+  color: #FFFFFF;
+
+}
+
 /*HEADER*/
 /*background: url(http://usersthink.com/wp-content/uploads/10-large.jpg);*/
 
@@ -335,7 +340,7 @@ nav ul li a:hover {
   display: inline-block;
   font-family: 'Baumans', cursive;
   color: #000;
-  font-size: 20px;
+  font-size: 22px;
   max-width: 540px;
 }
 
@@ -344,6 +349,9 @@ nav ul li a:hover {
   display: inline-block;
   box-shadow: -10px 0px 10px 1px #666666;
 }
+
+
+
 
 
 

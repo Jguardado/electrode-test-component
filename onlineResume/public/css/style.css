@@ -49,7 +49,8 @@ strong {
 figcaption {
   line-height: 25px;
   font-size: 14px;
-  width: 200px;
+  /*width: 200px;*/
+  margin-bottom: 50px;
 }
 
 figcaption strong {
@@ -206,7 +207,6 @@ nav ul li a:hover {
   width: 250px;
   margin-right: 45px;
   font-size: 14px;
-  height: auto;
 }
 
 
@@ -331,16 +331,16 @@ nav ul li a:hover {
 
 }
 
-#spacerTop h1 {
+#spacerTop .column1 {
   display: inline-block;
   font-family: 'Baumans', cursive;
   color: #000;
-  font-size: 30px;
+  font-size: 20px;
   max-width: 540px;
 }
 
 #spacerTop img {
-  border-radius: 200px 40px 40px 200px;
+  border-radius: 40px 40px 40px 40px;
   display: inline-block;
   box-shadow: -10px 0px 10px 1px #666666;
 }
@@ -367,7 +367,7 @@ nav ul li a:hover {
 }
 
 #four_columns .img-item {
-  float: left;
+  /*float: left;*/
   margin-right: 25px;
 }
 
@@ -378,7 +378,7 @@ nav ul li a:hover {
 
 .thumb-screen {
   display: block;
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   width: 100%;

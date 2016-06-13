@@ -7,7 +7,7 @@
       <title>Juan Guardado - Software Engineer</title>
       <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
       <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-      <link href="lightbox/css/lightbox.css" rel="stylesheet" media="screen" />
+      <link rel="stylesheet" href="lightbox/css/lightbox.css" type="text-css" media="screen" />
       <link href='https://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 
@@ -15,7 +15,8 @@
       <script src="js/vendor/respond.js"></script>
       <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
       <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-      <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/vendor\/1.7.2.jquery.min.js"><\/script>')</script>
+      <!-- <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/vendor\/1.7.2.jquery.min.js"><\/script>')</script> -->
+
       <script src="lightbox/js/lightbox.js"></script>
       <script src="js/vendor/prefixfree.min.js"></script>
       <script src="js/vendor/jquery.slides.min.js"></script>
@@ -58,14 +59,14 @@
   <body>
 
     <section id="landing">
-      <img src="img/landing.jpg" alt="landing not loading"/>
+      <img src="img/newLanding.jpg" alt="landing not loading"/>
       <header>
         <h1>Juan Guardado</h1>
         <p>An Interactive Portfolio</p>
         <nav>
           <ul>
             <li><a href="#slides">Home</a></li>
-            <li><a href="#four_columns">Profolio</a></li>
+            <li><a href="#four_columns">Portfolio</a></li>
             <li><a href="#text_columns">About</a></li>
             <li><a href="#boxcontent">Contact</a></li>
           </ul>
@@ -77,7 +78,15 @@
       <div class="topSpacer">
         <h2 class="hidden">Spacer</h2>
         <img src="img/profilepic-small.jpg"/>
-        <h1>Life Long Learner, Builder, and Designer. React.js Enthusiast</h1>
+        <article class="column1">
+            <p>I am a full stack Software Engineer specializing in JavaScript.
+              I have a passion for building creative simple solutions to complex
+              problems and thrive in a team driven environment. I'm intrigued by the
+              way things work. I enjoy deconstructing processes to discover new
+              effective methods of improving them. I have experience working with
+              React.js, Redux, and Angular on the frontend, as well as Node.js,
+              MongoDB, mySQL on the backend. </p>
+          </article>
       </div>
     </section>
 
@@ -118,22 +127,22 @@
       </div>
     </section> -->
 
-    
+
     <section id="boxcontent">
       <h2 class="hidden">Possibly Resume</h2>
       <article>
-        <img src="img/github.jpg" alt="oops no pic" />
-        <h3><a href="https://github.com/jguardado">GitHub</h3>
+        <a href="https://github.com/jguardado"><img src="img/github.jpg" alt="oops no pic" /></a>
+        <h3>GitHub</h3>
         <p>Take a look at what I'm currently working on.</P>
       </article>
       <article>
-        <img src="img/medium.jpg" alt="oops no pic">
-        <h3><a href="https://medium.com/@juanguardado">My Blog</a></h3>
+        <a href="https://medium.com/@juanguardado"><img src="img/medium.jpg" alt="oops no pic"></a>
+        <h3>My Blog</h3>
         <p>Read along as I share insights and solutions to common problems</p>
       </article>
       <article>
-        <img src="img/resumeIcon2.png" alt="oops no pic">
-        <h3><a href="img/LatestResume.pdf" download>Resume</a></h3>
+        <a href="img/LatestResume.pdf" download><img src="img/resumeIcon2.png" alt="oops no pic"></a>
+        <h3>Resume</h3>
         <p>click above to downlond my resume</p>
       </article>
       <br class="clear" />
@@ -145,10 +154,10 @@
       <article class="img-item">
         <h3 class="hidden">HeartBeat</h3>
         <figure>
-          <a href="lightbox/images/heartbeat.png" rel="lightbox" title="HeartBeat">
+          <!-- <a href="lightbox/images/heartbeat.png" rel="lightbox" title="HeartBeat"> -->
             <span class="thumb-screen"></span>
             <img src="img/heartbeat-small.jpeg" alt="get small heartbeat pic"/>
-          </a>
+          <!-- </a> -->
           <figcaption>
             <strong>
               Team: Juan Guardado, Blaine Degannes, Jon Tippens, Karun Sandinna
@@ -164,10 +173,10 @@
       <article class="img-item">
         <h3 class="hidden">Prsnl</h3>
         <figure>
-          <a href="img/prsnl.jpg" rel="lightbox" title="Prsnl">
+          <!-- <a href="img/prsnl.jpg" rel="lightbox" title="Prsnl"> -->
             <span class="thumb-screen"></span>
             <img src="img/prsnl-small.png" alt="get small prsnl pic"/>
-          </a>
+          <!-- </a> -->
           <figcaption>
             <strong>
               Team: Juan Guardado, Raphael Baskerville, Daniel Kim, Jon Tippens
@@ -183,10 +192,10 @@
       <article class="img-item">
         <h3 class="hidden">ComponentBase</h3>
         <figure>
-          <a href="img/componentbase2.jpg" rel="lightbox" title="ComponentBase">
+          <!-- <a href="/public/img/componentbase2.jpg" rel="lightbox" title="ComponentBase"> -->
             <span class="thumb-screen"></span>
             <img src="img/componentBase-small.png" alt="get small component base pic"/>
-          </a>
+          <!-- </a> -->
           <figcaption>
             <strong>
               Team: Juan Guardado

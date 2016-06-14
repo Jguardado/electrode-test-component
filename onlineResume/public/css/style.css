@@ -347,12 +347,13 @@ nav ul li a:hover {
   color: #000;
   font-size: 22px;
   max-width: 540px;
+  padding-left: 25px;
 }
 
 #spacerTop img {
   border-radius: 40px 40px 40px 40px;
   display: inline-block;
-  box-shadow: -10px 0px 10px 1px #666666;
+  box-shadow: -3px 0px 7px 1px #69D2E7;
 }
 
 

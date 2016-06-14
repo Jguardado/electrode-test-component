@@ -173,7 +173,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #FA6900;
-  text-shadow: 1px 1px #ff0000;
+  /*text-shadow: 1px 1px #ff0000;*/
 }
 
 /*MOBILE*/

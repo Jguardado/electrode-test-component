@@ -172,7 +172,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #89AC10;
+  color: #FA6900;
+  text-shadow: 1px 1px #ff0000;
 }
 
 /*MOBILE*/
@@ -285,11 +286,13 @@ nav ul li a:hover {
 
 #slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p  .responsive_button {
   display:none;
-  color:#A1C22D;
+  color:#FA6900;
 }
 
 #slider_content1 p .responsive_button:hover, #slider_content2 p .responsive_button:hover, #slider_content3 p  .responsive_button:hover {
-  color:#666666;
+  color:#FA6900;
+  text-shadow: 1px 1px #ff0000;
+
 }
 /*Spacer Section*/
 
@@ -371,7 +374,7 @@ nav ul li a:hover {
 
 #four_columns h2, #text_columns h3 {
   font-size: 25px;
-  border-bottom: 2px solid #F38630;
+  border-bottom: 5px solid #F38630;
   padding: 20px 0;
   margin-bottom: 20px;
 }
@@ -548,6 +551,12 @@ footer .wrapper .column.rightlist ul li a img {
 
 footer .wrapper .column.rightlist ul li a img:hover {
   border-color: #5e5e5e;
+  color: #fff;
+}
+
+footer .wrapper .column.rightlist ul li a:hover {
+  /*border-color: #5e5e5e;*/
+  color: #fff;
 }
 
 footer .wrapper .column h4 {

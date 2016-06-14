@@ -117,7 +117,7 @@ hr {
 
 .headerText {
   color: #FA6900;
-  text-shadow: 2px 2px #ff0000;
+  /*text-shadow: 2px 2px #ff0000;*/
 }
 /*HEADER*/
 /*background: url(http://usersthink.com/wp-content/uploads/10-large.jpg);*/
@@ -325,7 +325,7 @@ nav ul li a:hover {
 #spacerTop {
   width: auto;
   height: 500px;
-  background-color: #e6ffff;
+  background-color: #fff;
   position: relative;
   font-family: 'Didact Gothic', sans-serif;
   color: #fff;
@@ -351,7 +351,7 @@ nav ul li a:hover {
 }
 
 #spacerTop img {
-  border-radius: 40px 40px 40px 40px;
+  /*border-radius: 40px 40px 40px 40px;*/
   display: inline-block;
   /*box-shadow: -3px 0px 7px 1px #69D2E7;*/
 }

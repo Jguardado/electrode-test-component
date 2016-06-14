@@ -4,7 +4,7 @@
 
 body {
   border-top: 5px solid #666666;
-  background: #E9F3D9;
+  background: #A7DBD8;
   font-family: 'Didact Gothic', sans-serif;
   color: #333333;
 }
@@ -54,7 +54,7 @@ figcaption {
 }
 
 figcaption strong {
-  border-bottom: 1px solid #89AC10;
+  border-bottom: 2px solid #F38630;
   padding-bottom: 10px;
   margin: 10px 0;
   display: block;
@@ -113,9 +113,12 @@ hr {
 
 .text {
   color: #FFFFFF;
-
 }
 
+.headerText {
+  color: #FA6900;
+  text-shadow: 2px 2px #ff0000;
+}
 /*HEADER*/
 /*background: url(http://usersthink.com/wp-content/uploads/10-large.jpg);*/
 
@@ -139,7 +142,6 @@ header p {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 16px;
   color: #666666;
-  margin-left: 132px;
 }
 
 /*NAV BAR*/
@@ -294,7 +296,7 @@ nav ul li a:hover {
 #spacer {
   width: auto;
   height: 70px;
-  background-color: #A1C22D;
+  background-color: #A7DBD8;
   position: relative;
   font-family: 'Didact Gothic', sans-serif;
   color: #fff;
@@ -320,7 +322,7 @@ nav ul li a:hover {
 #spacerTop {
   width: auto;
   height: 500px;
-  background-color: #E9F3D9;
+  background-color: #E0E4CC;
   position: relative;
   font-family: 'Didact Gothic', sans-serif;
   color: #fff;
@@ -369,7 +371,7 @@ nav ul li a:hover {
 
 #four_columns h2, #text_columns h3 {
   font-size: 25px;
-  border-bottom: 1px solid #89AC10;
+  border-bottom: 2px solid #F38630;
   padding: 20px 0;
   margin-bottom: 20px;
 }
@@ -513,7 +515,7 @@ footer .wrapper .column.midlist ul li {
   width: auto;
   padding: 0 0 10px 25px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #89AC10;
+  border-bottom: 1px solid #F38630;
   background: url("http://www.lingulo.com/tutorial-content/html5/css/img/arrowright2.png") left 6px no-repeat;
 }
 
@@ -552,7 +554,7 @@ footer .wrapper .column h4 {
 /*Copyright portion*/
 
 #copyright {
-  background: #89AC10;
+  background: #69D2E7;
   height: 70px;
   position: absolute;
   bottom: 0;

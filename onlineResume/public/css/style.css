@@ -404,14 +404,21 @@ nav ul li a:hover {
 }
 
 /*Text Column*/
-
-#text_columns article.column1, #text_columns .column2 {
-  margin: 70px 0;
+#text_columns article, #text_columns .column2 {
+  margin: 70px 0 70px 15px;
   font-size: 14px;
   float: left;
   width: auto;
   max-width: 450px;
   }
+
+/*#text_columns article.column1, #text_columns .column2 {
+  margin: 70px 0;
+  font-size: 14px;
+  float: left;
+  width: auto;
+  max-width: 450px;
+  }*/
 
 #text_columns .column2 {
   margin: 120px 0;

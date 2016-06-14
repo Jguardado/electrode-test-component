@@ -353,7 +353,7 @@ nav ul li a:hover {
 #spacerTop img {
   border-radius: 40px 40px 40px 40px;
   display: inline-block;
-  box-shadow: -3px 0px 7px 1px #69D2E7;
+  /*box-shadow: -3px 0px 7px 1px #69D2E7;*/
 }
 
 

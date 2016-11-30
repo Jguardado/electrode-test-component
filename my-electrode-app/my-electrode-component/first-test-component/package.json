@@ -1,0 +1,39 @@
+{
+  "name": "first-test-component",
+  "version": "1.0.0",
+  "description": "first_test-component",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Juan Guardado",
+    "url": "https://github.com/Jguardado"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//first-test-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com//first-test-component/issues"
+  },
+  "homepage": "https://github.com//first-test-component",
+  "dependencies": {},
+  "devDependencies": {
+    "electrode-archetype-react-component": "^1.0.0",
+    "electrode-archetype-react-component-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  },
+  "engines": {
+    "node": "^4.2.6",
+    "npm": "^3.5.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "start": "gulp demo",
+    "test": "gulp check"
+  },
+  "keywords": [
+    "react",
+    "electrode",
+    "electrode-component",
+    "react-component"
+  ]
+}
